@@ -7,7 +7,7 @@
         <import type="android.view.View"/>
         <variable
             name="viewModel"
-            type="com.example.retrostudy.DogInfoViewModel" />
+            type="com.example.retrostudy.viewmodel.DogInfoViewModel" />
 
 
 
@@ -16,7 +16,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".view.MainActivity">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottie"
